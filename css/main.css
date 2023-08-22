@@ -12,7 +12,7 @@ html {
 body {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
-        width: 50%;
+        
         min-width: 320px;
      
     }
@@ -23,22 +23,45 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    
+    height: 5vh;   
 }
 .logo {
-    max-height:  30px;
-    position: relative;
-    left:
+    max-height:  20px;
+    margin-left: 10px;
     
 }
 .bmenu {
     justify-content: flex-end;
-    max-height:  30px;
+    max-height:  20px;
     position: relative;
-    left: 170px;
+    left: 200px;
 }
 .main {
-    background-color: deepskyblue;
+    background-color: rgb(11, 168, 216);
     color: white;
+
+}
+
+.hero {
+
+    height: 50vh;
+}
+
+.beneficios-prueba {
+    display:flex;
+    flex-direction: column;
     
 }
+
+.imagenes-prueba {
+    width:1px;
+    height:1px;
+}
+.beneficios {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
