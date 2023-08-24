@@ -7,51 +7,57 @@
 html {
 
     font-size: 62.50%;
+    
 }
 
 body {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        width: 100%;
+
+    
 }
 
 .header {
     background-color: black;
     display: flex;
     justify-content:space-between;
-    height: 60px;
+    height: 6rem;
+    position: fixed;
+    width: 100vw;
     
     align-items: center;
        
 }
 .logo {
-    max-height:  25px;
-    margin-left: 20px;
+    max-height:  2.5rem;
+    margin-left: 2rem;
     
 }
 .bmenu {
     justify-content: flex-end;
-    max-height:  25px;
-    margin-right: 25px;
+    max-height:  2.5rem;
+    margin-right: 2.5rem;
 }
 .main {
     background-color:#5f9aff;;
     color: white;
-    padding-top: 10rem;
+    padding-top: 20rem;
+    width: 100vw;
+    display: flex;
+    
 }
 
 .hero {
-    background: color #5f9aff;
-    height: 50vh;
-    align-items: center;
-    padding:18px;
-    margin:50px;
-    font-size: 3.5rem;
-    display: inline;padding-left: 2rem;
-    
-    
-}
 
-.text {
+    background: color #5f9aff;
+    height: 45rem;
+    align-items: center;    
+    font-size: 3.5rem;
+    display: inline;
+    justify-content: center;
     padding-left: 2rem;
+    
+    
 }
 
 .paragraph {
@@ -61,14 +67,14 @@ body {
 }    
 
 .prices {
-    width: 300px;
+    width:75vw;
     height: 5rem;
     background-color: rgb(18, 138, 18);
-    margin: 7rem;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    margin-top: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,39 +89,64 @@ body {
 
 .legal-terms {
 
-    font-size: 1.5rem;
-    padding: 2rem;
+    font-size: 1rem;
+    padding-top: 4rem;
+    padding-right: 3rem;
     position: center;
 }
 .beneficios {
 
     width: 100vw;
     height: 100vh;
+    min-height: 80rem;
+    margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    ;
+   
 }
 
 .title-Premium {
     font-size:2.5rem;
+    padding-top: 3rem;
     text-align: center;
 }
 
-.caja-beneficios{
+.main-benefits{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+ 
 
 }
+.box-container {
+    display: flex;
+    flex-direction: row;
+}
+.box-image {
+    height:12.5rem;
+    width: 12.5rem;
+}
 
-.pic-list1 {
-    height: 100px;
+.image{
+    width: 100%;
+    height: 100%;
     
 }
+
+
+.text-list {
+    font-size: 2rem;
+    margin-top: 3rem;
+    height:12.5rem;
+    width:21rem;
+    
+    
+}
+
 .footer {
     background-color: black;
-    position: fixed;
+    position:auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -124,13 +155,13 @@ body {
     width: 100%;
     height: 6rem;
 }
-.li {
+.footer-nav {
     
     display: inline;
     width: 16rem;
     text-align: justify;
 }
-.li-li {
+.footer-ul {
     color: white;
     display: inline;
     padding: 1rem;
