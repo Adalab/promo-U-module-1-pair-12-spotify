@@ -1,32 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
-    <link rel="stylesheet" href="link rel="preconnect href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,900;1,100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
 
     
 </head>
 <body>
     <header class="header">
-      <img src="./images/logo.png" alt="Logo Spotify" class="logo">
+      <a href="https://open.spotify.com/intl-es?"> <img src="./images/logo.png" alt="Logo Spotify" class="logo" ></a>
       <img src="./images/menu-icon.png" alt="barra de menu" class="bmenu">
     </header>
     <main class="main">
         <section class="hero">
-            <div class="">
-                <h1>Prueba Premium gratis tres meses </h1>
-                <p>Escucha millones de canciones sin anuncios, a la carta y sin conexión</p>
+            <div class="text">
+                <h1 class="heading">Prueba Premium gratis 3 meses </h1>
+                <p class="paragraph">Escucha millones de canciones sin anuncios, a la carta y sin conexión.</p>
             </div>
                 
-            <div>
-                <a href="">Ver planes</a>
+            <div class="prices">
+                <a class="link-prices">Ver planes</a>
             </div>
-            <div>
+            <div class="legal-terms">
                 <p>Rigen terminos y condiciones.Los tres meses gratis no están disponibles para usuarios que hayan probado Premium.</p>
             </div>
         </section>
@@ -39,31 +39,31 @@
         <div class="caja-beneficios">
             <ul class="caja-lista">
                 <li >
-                    <div>
-                        <img src="./images/benefit-1.png" alt="Nota musical">
+                    <div class="pic-list">
+                        <img class="pic-list1" src="./images/benefit-1.png" alt="Nota musical">
                     </div>
-                    <div>
+                    <div class="text-list">
                         <p>Descarga música.</p>
                         <p>Llévala siempre contigo.</p>
                     </div>
-                    <div>
+                    <div class="pic-list">
                         <img src="images/benefit-2.png" alt="Pantalla movil">
                     </div>
-                    <div>
+                    <div class="text-list">
                         <p>Sin anuncios.</p>
                         <p>Disfruta de música sin interrupciones.</p>
                     </div>
-                    <div>
+                    <div class="pic-list">
                         <img src="./images/benefit-3.png" alt="Notas musicales">
                     </div>
-                    <div>
+                    <div class="text-list">
                         <p>Escucha lo que quieras.</p>
                         <p>Incluso en el móvil.</p>
                     </div>
-                    <div>
+                    <div class="pic-list">
                         <img src="./images/benefit-4.png" alt="Simbolo de play">
                     </div>
-                    <div>
+                    <div class="text-list">
                         <p>Salta todas las canciones que quieras.</p>
                         <p>Simplemente dale a siguiente.</p>
                     </div>
@@ -93,16 +93,21 @@
      
     </section>
 </body>
-<footer>
-    <nav>
-        <ul>
-            <li ><a href=""></a> Legal</li>
-            <li > <a href=""></a>Cookies </li>
-            <li > <a href=""></a>Información sobre los anuncios </li>
+<footer class="footer">
+    <nav class="li">
+        <ul class="li-li">
+            <li class="li-legal"><a href=""></a> Legal</li>
+            <li class="li-cookies"> <a href=""></a>Cookies </li>
+            <li class="li-info"> <a href=""></a>Información sobre los anuncios </li>
         </ul>
     </nav>
-    <p>España </p>
-    <img src="./images/es.svg" alt="">
-    <small>© 2019 Spotify AB</small>
+    <div class="spain-box">
+        <div class="logo-spain">
+            <p>España </p>
+            <img class="bandera" src="./images/es.svg" alt="">  
+        </div>
+       
+        <small>© 2019 Spotify AB</small>
+    </div>
 </footer>
 </html>

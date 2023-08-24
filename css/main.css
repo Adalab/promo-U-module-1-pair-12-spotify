@@ -113,7 +113,79 @@ body {
     height: 100px;
     
 }
+.footer {
+    background-color: black;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 6rem;
+}
+.li {
+    
+    display: inline;
+    width: 16rem;
+    text-align: justify;
+}
+.li-li {
+    color: white;
+    display: inline;
+    padding: 1rem;
+    
 
+}
+
+.li-legal  {
+
+    display: inline;
+    
+    
+    
+    
+}
+.li-cookies {
+
+    display: inline;
+    margin-left: 3rem;
+    
+    
+    
+}
+.li-info {
+    padding-left: 1rem;
+    margin-top: 1rem;
+
+
+}
+
+
+.bandera{
+    /* position: absolute;
+    left: 400px;
+    bottom: 10px; */
+   
+    justify-content: flex-end;
+    max-height:  25px;
+    margin-right: 25px;
+}
+
+.spain-box {
+    color: white;
+    display: flex;
+    display: inline;
+    
+    
+}
+.logo-spain {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem; 
+
+
+}
 
 /* .beneficios-prueba {
     display:flex;
