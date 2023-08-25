@@ -26,6 +26,12 @@ body {
     width: 100vw;
     
     align-items: center;
+
+.header-nav {
+
+    text-transform: uppercase;
+
+}
        
 }
 .logo {
@@ -228,3 +234,5 @@ body {
     width:1px;
     height:1px;
 } */
+
+
