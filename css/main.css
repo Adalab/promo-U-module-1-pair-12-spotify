@@ -26,14 +26,16 @@ body {
     width: 100vw;
     
     align-items: center;
+}
 
 .header-nav {
-
-    text-transform: uppercase;
-
+    display: flex;
+    color: white;
+    display: none;
+   
 }
        
-}
+
 .logo {
     max-height:  2.5rem;
     margin-left: 2rem;
@@ -91,6 +93,8 @@ body {
     font-size: 2rem;
     text-transform: uppercase;
     text-align: center;
+    text-decoration: none;
+    color: white;
 }
 
 .legal-terms {
@@ -222,6 +226,22 @@ body {
     gap: 0.5rem; 
 
 
+}
+@media(min-width:480px){
+    /* .header-nav{
+        display: flex;
+
+    } */
+    .ul-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style: none;
+    }
+    .bmenu{
+        display:none;
+        list-style: none;
+    }
 }
 
 /* .beneficios-prueba {
