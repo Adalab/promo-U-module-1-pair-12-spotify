@@ -35,7 +35,9 @@ body {
    
 }
        
-
+.dancer{
+    display: none;
+}
 .logo {
     max-height:  2.5rem;
     margin-left: 2rem;
@@ -64,9 +66,10 @@ body {
     display: inline;
     justify-content: center;
     padding-left: 2rem;
-    
-    
+
 }
+
+
 
 .paragraph {
     font-size: 2.5rem;
@@ -232,17 +235,40 @@ body {
         display: flex;
 
     } */
+    .header-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+       
+        align-items: center;
+    }
+    .dancer{
+        display: flex;
+        background-image: (./images/premium_dancer.png);
+    }
     .ul-header {
         display: flex;
         flex-direction: row;
         justify-content: center;
         list-style: none;
     }
+    /* .hero{
+        display: flex;
+        justify-content: flex-end;
+        position: fixed;
+
+        background-image: ("../images/premium_dancer.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
+    
     .bmenu{
         display:none;
         list-style: none;
     }
 }
+
 
 /* .beneficios-prueba {
     display:flex;
