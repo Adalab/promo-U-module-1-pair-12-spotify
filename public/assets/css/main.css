@@ -182,7 +182,7 @@ body {
     align-items: center; }
   .dancer {
     display: flex;
-    background-image: "./images/premium_dancer.png"; }
+    background-image: "../../images/premium_dancer.png"; }
   .ul-header {
     display: flex;
     flex-direction: row;
