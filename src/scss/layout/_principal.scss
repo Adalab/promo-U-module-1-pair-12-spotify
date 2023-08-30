@@ -1,0 +1,111 @@
+.main {
+    background-color:#5f9aff;
+    color: white;
+    padding-top: 20rem;
+    width: 100vw;
+    display: flex;
+    
+}
+.hero {
+
+    background: color #5f9aff;
+    height: 45rem;
+    align-items: center;    
+    font-size: 3.5rem;
+    display: inline;
+    justify-content: center;
+    padding-left: 2rem;
+    @media(min-width:480px){
+        display: flex;
+        background-image: ("../../images/premium_dancer.png")
+    }
+
+}
+
+
+
+.paragraph {
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+    background-color:  #5f9aff;
+}    
+
+.prices {
+    width:75vw;
+    height: 5rem;
+    background-color: rgb(18, 138, 18);
+    margin-top: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.link-prices {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.legal-terms {
+
+    font-size: 1rem;
+    padding-top: 4rem;
+    padding-right: 3rem;
+    position: center;
+}
+.main__benefits {
+
+    width: 100vw;
+    height: 100vh;
+    min-height: 80rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.main__benefits_title{
+    font-size:2.5rem;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.main-benefits{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
+
+}
+.box-container {
+    display: flex;
+    flex-direction: row;
+}
+.box-image {
+    height:12.5rem;
+    width: 12.5rem;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.text-list {
+    font-size: 2rem;
+    margin-top: 3rem;
+    height:12.5rem;
+    width:21rem;
+    
+    
+}
