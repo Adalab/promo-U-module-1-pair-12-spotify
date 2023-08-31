@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,900;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <main>
+      <a href="https://open.spotify.com/intl-es?">
+        <img src="./assets/images/logo.png" alt="Logo Spotify" class="logo"
+      /></a>
+
+      <h1>Regístrate gratis para escuchar.</h1>
+
+      <a href="">Registrarse con facebook</a>
+      <a href="">Registrarse con google</a>
+
+      <h2>Registrate con tu correo electrónico</h2>
+
+      <div>
+        <form action=""></form>
+
+        <label for="email">¿Cuá es tu correo electrónico</label>
+        <input
+          placeholder="example@example.com"
+          id="email"
+          type="email"
+          name="emails"
+          autocomplete="email"
+          requiered
+        />
+
+        <label for="email">Confirma el correo electrónico</label>
+        <input
+          id="email"
+          type="email"
+          name="emails"
+          placeholder="example@example.com"
+          autocomplete="email"
+          requiered
+        />
+
+        <label for="password">Crea una contraseña</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Introduce tu contraseña"
+          requiered
+        />
+
+        <label for="name">¿Cómo quieres que te llamemos?</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Nombre"
+          requiered
+        />
+        <span>Esto aparece en tu perfil</span>
+
+        <label for="dia"></label>
+        <span>Día</span>
+        <input type="day" id="dia" name="dia" placeholder="DD" required />
+
+        <label for="mes"></label>
+        <span>Mes</span>
+        <select type="month" id="mes" name="mes" required>
+          <option value="">seleciona</option>
+          <option value="Enero">Enero</option>
+          <option value="Febrero">Febrero</option>
+          <option value="Marzo">Marzo</option>
+          <option value="Abril">Abril</option>
+          <option value="Mayo">Mayo</option>
+          <option value="Junio">Junio</option>
+          <option value="Julio">Julio</option>
+          <option value="Agosto">Agosto</option>
+          <option value="Septiembre">Septiembre</option>
+          <option value="Octubre">Octubre</option>
+          <option value="Noviembre">Noviembre</option>
+          <option value="Diciembre">Diciembre</option>
+        </select>
+
+        <span>¿Cual es tu género?</span>
+
+        <label for="genre1"
+          >Hombre
+          <input id="man" type="radio" value="hombre" name="genre" />
+        </label>
+        <label for="genre2"
+          >Mujer
+          <input id="woman" type="radio" value="mujer" name="genre" />
+        </label>
+      </div>
+    </main>
+  </body>
+</html>
